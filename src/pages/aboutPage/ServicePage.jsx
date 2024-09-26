@@ -3,6 +3,8 @@ import fAQ from "../../assets/FAQ.png";
 import businessGrowing from "../../assets/bussinessGrowing.png";
 import callIcon from "../../assets/call_icon.png"
 import searchIcon from "../../assets/faqandsearch.png";
+import technicalIcon from "../../assets/techSupport.png";
+import getInTouchIcon from "../../assets/message copy.png";
 export function Service() {
     return (
       <>
@@ -25,7 +27,7 @@ export function Service() {
    <div class="flex flex-wrap justify-center mt-8 space-x-0 md:space-x-8">
     <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" class=" p-6 rounded-lg shadow-lg border m-4 w-full md:w-1/3 lg:w-1/4 dark:bg-gray-900 dark:border-gray-600">
-     <img alt="Technical Support Icon" class="mx-auto mb-4" height="100" src="./src/assets/techSupport.png" width="100"/>
+     <img alt="Technical Support Icon" class="mx-auto mb-4" height="100" src={technicalIcon} width="100"/>
      <h3 class="text-xl font-semibold dark:text-white">
       Technical Support
      </h3>
@@ -88,7 +90,7 @@ export function Service() {
                   <div className="flex items-center gap-3">
                     <img
                       className="w-10"
-                      src="./src/assets/message copy.png"
+                      src={getInTouchIcon}
                       alt="message-icon"
                     />
                     <h3 className="text-xl font-bold dark:text-white">Get In Touch</h3>
