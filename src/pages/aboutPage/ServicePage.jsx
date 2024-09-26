@@ -1,3 +1,8 @@
+import people from "../../assets/shake_hand.png";
+import fAQ from "../../assets/FAQ.png";
+import businessGrowing from "../../assets/bussinessGrowing.png";
+import callIcon from "../../assets/call_icon.png"
+import searchIcon from "../../assets/faqandsearch.png";
 export function Service() {
     return (
       <>
@@ -6,7 +11,7 @@ export function Service() {
             alt="Two people shaking hands"
             className="object-cover w-full h-120"
             height="600"
-            src="./src/assets/shake_hand.png"
+            src={people}
             width="1920"
           />
           <div className="absolute inset-0 flex items-center justify-center">
@@ -33,7 +38,7 @@ export function Service() {
     </div>
     <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" class=" p-6 rounded-lg border shadow-lg mx-4 w-full md:w-1/3 lg:w-1/4 dark:bg-gray-900 dark:border-gray-600">
-     <img alt="FAQ Icon" class="mx-auto mb-4" height="100" src="./src/assets/FAQ.png" width="100"/>
+     <img alt="FAQ Icon" class="mx-auto mb-4" height="100" src={fAQ} width="100"/>
      <h3 class="text-xl font-semibold dark:text-white">
       FAQ
      </h3>
@@ -46,7 +51,7 @@ export function Service() {
     </div>
     <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" class=" p-6 rounded-lg shadow-lg m-4  w-full md:w-1/3 lg:w-1/4 border dark:bg-gray-900 dark:border-gray-600">
-     <img alt="Business Growing Icon" class="mx-auto mb-4" height="100" src="./src/assets/bussinessGrowing.png" width="100"/>
+     <img alt="Business Growing Icon" class="mx-auto mb-4" height="100" src={businessGrowing} width="100"/>
      <h3 class="text-xl font-semibold dark:text-white">
       Business Growing
      </h3>
@@ -70,7 +75,7 @@ export function Service() {
                   <div className="flex items-center gap-3">
                     <img
                       className="w-10"
-                      src="./src/assets/call_icon.png"
+                      src={callIcon}
                       alt="call-icon"
                     />
                     <h3 className="text-xl font-bold text-center dark:text-white">Call Us</h3>
@@ -135,7 +140,7 @@ export function Service() {
                   alt="FAQ Icon"
                   className="mr-4 w-1000 h-100"
                   height="100"
-                  src="./src/assets/faqandsearch.png"
+                  src={searchIcon}
                 />
               </div>
               <div className="text-left">

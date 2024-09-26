@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faHeart as farHeart } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
+import myLogo from "../../assets/logo_icon.png";
 export function FooterComponent() {
   return (
     <footer className="bg-white dark:bg-gray-900 dark:border-gray-700">
@@ -20,7 +21,7 @@ export function FooterComponent() {
           <div>
             <Link to="/" className="flex">
               <img
-                src="./src/assets/logo_icon.png"
+                src={myLogo}
                 alt="logo"
                 className="inline-block w-10"
               />
