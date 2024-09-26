@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun, faLayerGroup, faPercent, faUserGroup, faHeadphones, faCartShopping, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faHeart as farHeart } from '@fortawesome/free-regular-svg-icons';
 import { Link } from "react-router-dom";
-import AddToCart from '../products/AddToCart';
+import myLogo from "../../assets/techdeal white.png";
 
 export function NavbarComponent() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -40,7 +40,7 @@ export function NavbarComponent() {
       {/* Logo */}
       <div className="flex items-center">
         <a href="/" aria-label="Logo">
-          <img src="./src/assets/techdeal white.png" alt="logo" className="w-32" />
+          <img src={myLogo} alt="logo" className="w-32" />
         </a>
       </div>
 
