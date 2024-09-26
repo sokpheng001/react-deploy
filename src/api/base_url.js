@@ -1,0 +1,1 @@
+export const BASE_URL = "https://dealkh-api.istad.co/api/v1/";
